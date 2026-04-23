@@ -1,5 +1,5 @@
  #Print a square of stars recursively (n×n). 
- def print_row(n):
+def print_row(n):
     # Base case for row
     if n == 0:
         return
