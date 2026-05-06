@@ -1,0 +1,11 @@
+# 8. Compare two strings lexicographically
+
+str1 = input("Enter first string: ")
+str2 = input("Enter second string: ")
+
+if str1 == str2:
+    print("Both strings are equal")
+elif str1 > str2:
+    print(str1, "comes after", str2)
+else:
+    print(str1, "comes before", str2)
